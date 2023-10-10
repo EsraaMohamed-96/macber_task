@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Meddon&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+
+<body>
+    <main>
+        <nav class="navbar navbar-expand">
+            <div class="container-fluid custom--px">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0" id="navbarLinks">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">booking</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about oz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-disabled="true" href="#">community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-disabled="true" href="#">membership</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-disabled="true" href="#">private events</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link  highlighted" aria-disabled="true" href="#">InquirE</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center ">
+                            <div class="div d-flex me-4">
+                                <a class="nav-link " aria-disabled="true" href="#">Login</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+                                </svg>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#e0e87a"
+                                    class="bi bi-circle-fill" viewBox="0 0 30 30">
+                                    <circle cx="15" cy="15" r="15" />
+                                </svg>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a href="javascript:void(0);" class="navbar-icon" onclick="toggleNavbar()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+
+
+
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero custom--mb">
+            <div class="container-fluid custom--px">
+                <div class="hero-wrapper">
+
+                    <div class="content custom--ml">
+                        <h3> An innovatative</h3>
+                        <h1>co-working space</h1>
+                        <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,sed do eiusmod tempor
+                            <br /> ipsum dolor sit amet,Lorem ipsum dolor sit amet.
+                        </p>
+                        <div class="btns">
+                            <button> explore more</button>
+                            <div class="video">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="w-6 h-6">
+                                    <path fill-rule="evenodd"
+                                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm14.024-.983a1.125 1.125 0 010 1.966l-5.603 3.113A1.125 1.125 0 019 15.113V8.887c0-.857.921-1.4 1.671-.983l5.603 3.113z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                <button class="b-none"> play video </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="home custom--mb">
+            <div class="container-fluid custom--px h-100">
+                <div class="home-content">
+                    <h2>
+                        the home of the new
+                    </h2>
+                    <p > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim
+                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud
+                        Lorem ipsum dolor sit amet, consectetur
+                    </p>
+                    <div class="home-content-btns">
+                        <button>booking</button>
+                        <button>events</button>
+                        <button>membership</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+
+        <section class="about ">
+            <div class="title ">
+                <h3>our vision</h3>
+            </div>
+      
+            <div class="container-fluid  ">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="about-content custom--ml">
+                            <h2>about oz</h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                 nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat.
+                                eiusmod tempor incididunt ut labore et dolore
+                                quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. 
+                                veniam, quis nostrud exercitation commodo consequat. </p>
+                                <button>our vision</button>
+                          </div>
+                        </div>
+                     
+                  <div class="col-lg-8">
+                   <div class="img-wrapper">
+                        <img src="images/About oz.png" alt="about">
+                    </div>
+             
+              
+                  </div>
+                 
+                </div>
+              </div>
+
+        </section>
+
+        
+        <section class="about news ">
+            <div class="title ">
+                <h3>news feed</h3>
+            </div>
+      
+            <div class="container-fluid  ">
+                <div class="row">
+                        
+                  <div class="col-lg-8">
+                    <div class="img-wrapper">
+                         <img src="images/News feed.png" alt="about">
+                     </div>
+              
+               
+                   </div>
+                    <div class="col-lg-4">
+                        <div class="about-content  ">
+                            <h2>achievements for  oz</h2>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                 nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat.
+                                eiusmod tempor incididunt ut labore et dolore
+                                quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. 
+                                veniam, quis nostrud exercitation commodo consequat. </p>
+                                <button>explore</button>
+                          </div>
+                        </div>
+                 
+                 
+                </div>
+              </div>
+<div class="floated-ele">
+    <img src="images/Texture.svg" alt="texture">
+</div>
+        </section>
+
+
+
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+</body>
+
+</html>
