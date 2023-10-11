@@ -124,7 +124,6 @@ button {
 }
 button.black {
   border-color: #000;
-  background: #000000;
   color: #000;
 }
 
@@ -271,10 +270,6 @@ nav .navbar {
   color: #6f7070;
   width: 80%;
 }
-.about-content button {
-  color: #000;
-  border: 1px solid #000;
-}
 .about .img-wrapper {
   display: flex;
   justify-content: center;
@@ -346,10 +341,6 @@ nav .navbar {
   font-size: 2rem;
   font-family: blfont;
   text-transform: uppercase;
-}
-.events .swiper-slide .swiper-content button {
-  color: #000;
-  border: 1px solid #000;
 }
 .events .swiper-slide .swiper-content p {
   font-size: 1rem;
