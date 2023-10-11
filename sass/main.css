@@ -144,6 +144,19 @@ nav ul {
 }
 nav .nav-item {
   font-family: bfont;
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+  animation-delay: 1s;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 nav .nav-item .circle {
   height: 100%;
