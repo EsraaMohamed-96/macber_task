@@ -629,7 +629,7 @@ footer .footer-content--wrapper .right ul li a {
   .home-content-btns {
     flex-direction: column;
   }
-  .floated-ele {
+  .news .floated-ele {
     right: -25%;
   }
 }/*# sourceMappingURL=main.css.map */
