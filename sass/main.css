@@ -122,6 +122,11 @@ button {
   text-transform: capitalize;
   font-family: mfont;
 }
+button.black {
+  border-color: #000;
+  background: #000000;
+  color: #000;
+}
 
 nav {
   background-color: rgb(240, 242, 244);
@@ -392,6 +397,159 @@ nav .navbar {
 #location span {
   font-family: mfont;
   font-size: 1rem;
+}
+
+.growup {
+  position: relative;
+  width: 100%;
+  padding: 3rem 0;
+}
+.growup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.growup-wrapper h4 {
+  text-transform: uppercase;
+  font-family: bfont;
+  font-weight: bolder;
+  font-size: 2.3rem;
+}
+.growup-wrapper ul {
+  list-style: none;
+  display: flex;
+  gap: 8rem;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  .growup-wrapper ul {
+    gap: 3rem;
+  }
+}
+.growup-wrapper ul li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.growup-wrapper ul li:not(:nth-last-child(1))::after {
+  position: absolute;
+  content: "";
+  right: -50%;
+  top: 0;
+  height: 69%;
+  width: 0.12rem;
+  background: rgb(204, 203, 203);
+  bottom: 0;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .growup-wrapper ul li:not(:nth-last-child(1))::after {
+    right: -20%;
+  }
+}
+
+footer {
+  padding: 5rem 0 2rem 0;
+  background: #000;
+  color: #c7c6c6;
+}
+footer p {
+  font-family: rfont;
+  color: #898989;
+}
+footer h3 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: white;
+  font-family: bfont;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+footer .cs-input {
+  padding: 1rem;
+  width: 50rem;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #c7c6c6;
+  text-transform: capitalize;
+  box-shadow: none;
+  color: inherit;
+  font-family: mfont;
+}
+@media screen and (max-width: 768px) {
+  footer .cs-input {
+    width: 80%;
+  }
+}
+footer .cs-input:focus, footer .cs-input:hover, footer .cs-input:focus-visible {
+  outline: none;
+}
+footer .footer-content {
+  border-top: 1px solid #c7c6c6;
+  margin-top: 5rem;
+}
+footer .footer-content--wrapper {
+  width: 100%;
+  padding: 3rem 5rem 0 5rem;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-content--wrapper {
+    padding: 3rem 1rem 0 1rem;
+  }
+}
+footer .footer-content--wrapper .logo {
+  filter: invert(1);
+}
+footer .footer-content--wrapper .internal-links {
+  font-family: bfont;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 768px) {
+  footer .footer-content--wrapper .internal-links {
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 1rem 0;
+    align-items: flex-start;
+    margin: 2rem 0;
+  }
+}
+footer .footer-content--wrapper .internal-links li a {
+  text-transform: capitalize;
+  white-space: nowrap;
+  color: #c7c6c6;
+  text-decoration: none;
+}
+footer .footer-content--wrapper .right {
+  border-left: 1px solid white;
+  height: 100%;
+}
+footer .footer-content--wrapper .right ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+footer .footer-content--wrapper .right ul li a {
+  color: #c7c6c6;
+  text-decoration: none;
+  font-size: 2rem;
 }
 
 /* responsive part */

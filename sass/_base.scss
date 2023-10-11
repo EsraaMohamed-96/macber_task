@@ -119,5 +119,11 @@
     border: 0.0625rem solid #fff;
     text-transform: capitalize;
     font-family: mfont;
+    &.black{
+      border-color: #000;
+      background:#000000;
+      color: #000;
+    }
   }
  
+
