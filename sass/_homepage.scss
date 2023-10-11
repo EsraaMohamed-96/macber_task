@@ -502,7 +502,9 @@ footer{
         overflow-x: hidden;
         font-size: 12px;
     }
-
+.hero{
+    background-position: 36%;
+}
     .custom--px {
         padding: 0 15px;
     }
@@ -574,8 +576,6 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-
-
 
     .home-content {
         width: 100%;

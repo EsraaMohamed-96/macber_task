@@ -564,6 +564,9 @@ footer .footer-content--wrapper .right ul li a {
     overflow-x: hidden;
     font-size: 12px;
   }
+  .hero {
+    background-position: 36%;
+  }
   .custom--px {
     padding: 0 15px;
   }
