@@ -51,7 +51,8 @@ nav {
         cursor: pointer;
         position: absolute;
         right: 3.125rem;
-        svg{
+
+        svg {
             width: 30px;
         }
     }
@@ -212,21 +213,76 @@ nav {
     }
 
 }
-.events{
-    &-content{
+
+.events {
+    &-content {
         display: flex;
         justify-content: flex-start;
         align-items: center;
         gap: 5rem;
-        
+
         p {
             font-family: mfont;
-            font-size: 1.2rem;
+            font-size: 1.7rem;
             text-align: justify;
-            color: #6f7070;
-            width: 45%;
+            color: #898989;
+            width: 50%;
         }
     }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        padding: 7rem 0 3rem 0;
+    }
+
+    .swiper-slide {
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .swiper-content {
+            padding: 3rem 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 0.5rem;
+
+            h4 {
+                font-size: 2rem;
+                font-family: blfont;
+                text-transform: uppercase;
+            }
+
+            button {
+                color: #000;
+                border: 1px solid #000;
+            }
+
+            p {
+                font-size: 1rem;
+                font-family: rfont;
+                color: #898989;
+                text-align: justify;
+            
+            
+            
+            }
+        }
+
+
+
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
 /* responsive part */
@@ -265,13 +321,15 @@ nav {
 
         .navbar-icon {
             display: block;
-    margin-top: 1.5rem;
+            margin-top: 1.5rem;
         }
-        .navbar-collapse{
+
+        .navbar-collapse {
             flex-direction: column;
             justify-content: space-between;
             align-items: flex-start;
         }
+
         .navbar-nav.responsive {
             display: flex;
             flex-direction: column;
@@ -307,18 +365,20 @@ nav {
             margin-left: 3.125rem;
         }
     }
-.events-content {
-flex-direction: column;
-gap: 1rem;
-p{
-    width: 100%;
-}
-}
+
+    .events-content {
+        flex-direction: column;
+        gap: 1rem;
+
+        p {
+            width: 100%;
+        }
+    }
 }
 
 @media screen and (max-width: 768px) {
 
-   
+
 
     .home-content {
         width: 100%;
@@ -335,7 +395,7 @@ p{
     }
 
     .floated-ele {
-      
+
         right: -25%;
     }
 }

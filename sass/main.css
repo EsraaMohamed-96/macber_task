@@ -1,4 +1,9 @@
 @font-face {
+  font-family: blfont;
+  src: url(../fonts/Roboto-Black.ttf);
+  font-weight: 900;
+}
+@font-face {
   font-family: bfont;
   src: url(../fonts/Roboto-Bold.ttf);
   font-weight: 700;
@@ -64,6 +69,9 @@ h3 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 html {
@@ -303,10 +311,50 @@ nav .navbar {
 }
 .events-content p {
   font-family: mfont;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   text-align: justify;
-  color: #6f7070;
-  width: 45%;
+  color: #898989;
+  width: 50%;
+}
+.events .swiper {
+  width: 100%;
+  height: 100%;
+  padding: 7rem 0 3rem 0;
+}
+.events .swiper-slide {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.events .swiper-slide .swiper-content {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.events .swiper-slide .swiper-content h4 {
+  font-size: 2rem;
+  font-family: blfont;
+  text-transform: uppercase;
+}
+.events .swiper-slide .swiper-content button {
+  color: #000;
+  border: 1px solid #000;
+}
+.events .swiper-slide .swiper-content p {
+  font-size: 1rem;
+  font-family: rfont;
+  color: #898989;
+  text-align: justify;
+}
+.events .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 /* responsive part */
