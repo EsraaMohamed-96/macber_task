@@ -112,7 +112,6 @@ body {
 
 p {
   font-family: lfont;
-  font-size: 0.9375rem;
 }
 
 button {
@@ -239,8 +238,9 @@ nav .navbar {
   color: #fff;
 }
 .home-content p {
-  width: 50%;
+  width: 60%;
   text-align: center;
+  font-size: 1.4rem;
 }
 .home-content-btns {
   gap: 2rem;
@@ -320,6 +320,7 @@ nav .navbar {
   width: 100%;
   height: 100%;
   padding: 7rem 0 3rem 0;
+  position: relative;
 }
 .events .swiper-slide {
   text-align: left;
@@ -355,6 +356,42 @@ nav .navbar {
   display: block;
   width: 100%;
   height: 100%;
+}
+
+.swiper-wrapper {
+  width: 100%;
+  padding: 30px;
+  margin-left: -1.2rem;
+}
+
+.swiper-pagination {
+  text-align: right;
+  margin-left: -1rem;
+  padding: 0.8rem 0;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+#location {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+}
+#location svg {
+  margin-right: 1rem;
+}
+#location span {
+  font-family: mfont;
+  font-size: 1rem;
 }
 
 /* responsive part */
@@ -399,8 +436,8 @@ nav .navbar {
     padding: 20px 0;
   }
   .home-content p {
-    width: 45%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
   }
   .about-content {
     padding-top: 30px;
