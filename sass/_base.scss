@@ -86,10 +86,21 @@
   .custom--mb{
     margin-bottom: 1.875rem;
   }
+  .custom--mt{
+    margin-top:1.875rem ;
+  }
   .custom--ml{
     margin-left: 3.125rem;
   }
  
+  .title {
+    border-bottom: 2px solid #cfcfcf;
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+    border-top: 2px solid #cfcfcf;
+    margin-top: 0;
+    padding-top: 1.5rem;
+}
 
   p
   {
